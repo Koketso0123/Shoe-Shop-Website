@@ -1,0 +1,217 @@
+body{
+    background-color: #7c0a02;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    /* width: 100vw; */
+}
+ .head{ 
+    position: sticky;
+    top: 0;
+    color:#e2725b;
+    padding: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(1,1,1,0.1);
+    height: 30px;
+    background-color: #7c0a02;
+
+}
+.logo{
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    color: #e2725b;
+}
+.linx{
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: #e2725b;
+    padding-right: 20px;
+}
+.btn{
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: #e2725b;
+    padding-right: 20px;
+
+}
+.prs-img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+}
+.cart{
+
+    float: right;
+  }  
+h2{
+    text-align: center;
+    color: #e2725b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.buy{
+    display: grid;
+    gap:15px;
+    /* margin-left: 50px; 
+    margin-right: 50px;
+     margin-top: 50px;  */
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+
+.stock > img{
+    width: 100%;
+}
+.stock{
+    padding: 30px;
+    margin: 20px;
+}
+
+.st-img{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+.st-lnk{
+    text-decoration: none;
+    text-align: left;
+    color: #e2725b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.pg-lnx{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pg{
+    text-decoration: none;
+    color: #e2725b;
+    border: 1px solid #e2725b;
+    border-radius: 100%;
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+.pg:hover{
+    opacity: 0.7;
+}
+.footer{
+    width: 1373px;
+    background-color: orange;
+    color: #7c0a02;
+    padding: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.t-foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+}
+.t-logo{
+    font-size: 30px;   
+}
+.t-media{
+    display: grid;
+}
+.media{
+    text-decoration: none;
+    border-bottom: 1px solid #7c0a02;
+    font-size: 18px;
+    color: #7c0a02;
+    width: fit-content;
+    padding: 5px;
+}
+.media:hover{
+    border-bottom: 2px solid rgba(124,10,2,0.7);
+}
+.t-info{
+    display: grid;
+}
+.t-l-c{
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.media-2{
+    text-decoration: none;
+    border-bottom: 1px solid #7c0a02;
+    border-right: 1px solid #7c0a02;
+    font-size: 18px;
+    color: blue;
+    width: fit-content;
+    padding: 5px;
+
+}
+.media-2:hover{
+    border-bottom: 2px solid rgba(124,10,2,0.7);
+    border-right:  2px solid rgba(124,10,2,0.7) ;
+    opacity: 0.9;
+}
+@media only screen and (max-width : 700px) {
+
+    .st-img{
+        margin-top: -10px;
+    }
+   
+    .footer{
+        width: 100%;
+        background-color: orange;
+        color: #7c0a02;
+        padding: 50px 0px 50px 0px;
+        align-items: left;
+        margin-top: 100px;
+        height: 250px;
+        bottom: 0;
+        display: grid;
+    }
+
+    .t-foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 40px;       
+    }
+
+    .t-media{
+        margin-left: 35px;
+    }
+
+    .media-2{
+        text-decoration: none;
+        border-bottom: 1px solid #7c0a02;
+        border-right: 1px solid #7c0a02;
+        font-size: 18px;
+        color: #7c0a02;
+        width: fit-content;
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    .t-l-c{
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+}
+@media only screen and (max-width : 480px){
+    .footer{
+        background-color: orange;
+    }
+
+    .media-2{
+        text-decoration: none;
+        border-bottom: 1px solid #7c0a02;
+        border-right: 1px solid #7c0a02;
+        font-size: 15px;
+        color: #7c0a02;
+        width: fit-content;
+        padding: 5px;
+        margin-left: 0px;
+    }
+
+    .t-media{
+        margin-left: 5px;
+    }
+}
